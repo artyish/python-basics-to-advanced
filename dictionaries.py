@@ -44,4 +44,4 @@ while True:
     menu.update({food_item : price})
 
 for key , value in menu.items():
-    print(f"{key:7} : ${value}")
+    print(f"{key:8} : ${value}")
